@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>chicken</servlet-name>
+	<servlet-class>my.chicken.ChickenServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>chicken</servlet-name>
+	<url-pattern>*.chi</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>display</servlet-name>
+	<servlet-class>my.display.DisplayServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>display</servlet-name>
+	<url-pattern>*.dis</url-pattern>
+</servlet-mapping>
+
+</web-app>
