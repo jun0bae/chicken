@@ -12,7 +12,7 @@ public class EventEditCommand implements CommandIf {
 	public Object processCommand(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		return "";
+		return 
 	}
 
 }
